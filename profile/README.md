@@ -1,13 +1,19 @@
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/236386494?s=200&v=4" alt="Logo" width="150"/>
 
-  # TI-RAX
-  
+  # TI-RAX 🤖
+
   ![License: GNU GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)
   ![Version 0.1](https://img.shields.io/badge/version-0.1-green.svg)
   ![Status: Stable](https://img.shields.io/badge/status-in_progress-orange.svg)
+    
+  <p>
+    <strong>TI-RAX</strong> is a project contributing to the <strong>MASTER</strong> ecosystem by developing immersive <strong>extended-reality training environments</strong> for industrial robotics education. 
+    It transforms structured educational designs into fully operational interactive simulations deployed through the <strong>VIROO platform</strong>.
+    By combining artificial intelligence, multi-agent content generation, and XR technologies, TI-RAX enables realistic, scalable, and pedagogically grounded training experiences focused on industrial scenarios.
+  </p>
 
-</div
+</div>
 
 The **TI-RAX** project contributes to the **MASTER** ecosystem by developing immersive **extended-reality training environments** for industrial robotics education. The project transforms structured educational designs into fully operational interactive simulations deployed through the **VIROO platform**. By combining artificial intelligence, multi-agent content generation, and extended reality technologies, the TI-RAX project supports realistic, scalable, and pedagogically grounded experiences focused on industrial scenarios.
 

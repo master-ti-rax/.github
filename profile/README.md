@@ -4,9 +4,7 @@
   ![Version 0.1](https://img.shields.io/badge/version-0.1-green.svg)
   ![Status: Stable](https://img.shields.io/badge/status-stable-brightgreen.svg)
 
-The **TI-RAX** project contributes to the **MASTER** ecosystem by developing immersive **extended-reality training environments** for industrial robotics education. The project transforms structured educational designs into fully operational interactive simulations deployed through the **VIROO platform**. By combining artificial intelligence, multi-agent content generation, and extended reality technologies, the TI-RAX project supports realistic, scalable, and pedagogically grounded training experiences focused on industrial scenarios.
-
----
+The **TI-RAX** project contributes to the **MASTER** ecosystem by developing immersive **extended-reality training environments** for industrial robotics education. The project transforms structured educational designs into fully operational interactive simulations deployed through the **VIROO platform**. By combining artificial intelligence, multi-agent content generation, and extended reality technologies, the TI-RAX project supports realistic, scalable, and pedagogically grounded experiences focused on industrial scenarios.
 
 ## Project Goals
 
@@ -23,8 +21,6 @@ The TI-RAX project addresses several challenges in vocational education and trai
   
 - **Public accessibility**: Extended reality applications require to be deployable into easy-to-access infrastructures.  
   *TI-RAX enables external users to access and play with the applications through the VIROO player within the MASTER ecosystem.*
-
----
 
 ## Resources
 
@@ -46,7 +42,7 @@ The TI-RAX project addresses several challenges in vocational education and trai
 
 - **End-User Applications**  
   Executable apps available through the [VIROO Player]([https://www.viroo.com/](https://viroo.virtualwareco.com/resources/players/)) for public testing: 
-  - Email: tirax@grr.la; Password: testuser
+  Download link: [Click here]([https://www.viroo.com/](https://viroo.virtualwareco.com/resources/players/)) Email: tirax@grr.la; Password: testuser
 
 - **Scene Walkthrough Videos**  
   Demonstrations of learner interaction workflows:  
@@ -66,7 +62,7 @@ Business development partner providing industry experience on information and co
 
 ## How to Contribute
 
-We welcome contributions from the open-source community, including code improvements, feedback on user experience, and participation in the validation process. 
+We welcome contributions from the community, including code improvements, user experience feedback, and validation process participation. 
 
 ## License
 This project is licensed under the GNU General Public License v3.0 License - see the [LICENSE](https://github.com/master-ti-rax/.github/blob/main/LICENSE) file for details.
@@ -76,6 +72,5 @@ For any questions or support, please reach out to:
 - University of Cagliari: mirko.marras@unica.it, andreag.martis@unica.it, diego.reforgiato@unica.it, daniele.riboni@unica.it
 - R2M Solution: giuseppe.scarpi@r2msolution.com
 
----
-
+## Acnowledgements
 The TI-RAX Project has received funding from the European Union’s Horizon Europe research and innovation action programme, via the Open Call #2 – MASTER issued and executed under project MASTER (grant agreement Nr. 101093079). The views expressed here are those of the author(s) only and do not necessarily reflect the views of the European Union.

@@ -15,8 +15,6 @@
 
 </div>
 
-The **TI-RAX** project contributes to the **MASTER** ecosystem by developing immersive **extended-reality training environments** for industrial robotics education. The project transforms structured educational designs into fully operational interactive simulations deployed through the **VIROO platform**. By combining artificial intelligence, multi-agent content generation, and extended reality technologies, the TI-RAX project supports realistic, scalable, and pedagogically grounded experiences focused on industrial scenarios.
-
 ## Project Goals
 
 The TI-RAX project addresses several challenges in training based on extended reality:

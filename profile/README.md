@@ -42,8 +42,7 @@ The TI-RAX project addresses several challenges in training based on extended re
 
 - **End-User Applications**  
   Executable apps available through the [VIROO Player]([https://www.viroo.com/](https://viroo.virtualwareco.com/resources/players/)) for public testing:
-  
-  Download link: [Click here](https://viroo.virtualwareco.com/resources/players/); Username/email: tirax@grr.la; Password: testuser
+  [https://viroo.virtualwareco.com/resources/players/](https://viroo.virtualwareco.com/resources/players/); Username/email: tirax@grr.la; Password: testuser
 
 - **Scene Walkthrough Videos**  
   Demonstrations of learner interaction workflows:  

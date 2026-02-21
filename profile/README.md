@@ -53,7 +53,7 @@ The TI-RAX project addresses several challenges in training based on extended re
 <img src="https://www.unica.it/sites/default/files/styles/wide/public/2023-06/Logo_lungo_RGB_d0.png?itok=b_qHk7do" alt="University of Cagliari Logo" width="225"/>
 
 **University of Cagliari**  
-Key research partner with expertise in generative artificial intelligence, artificial intelligence in education, and deep learning technologies.
+Scientific partner with expertise in generative artificial intelligence, artificial intelligence in education, and deep learning technologies.
 
 <img src="https://lifeprojects.r2msolution.com/wp-content/uploads/2024/03/Logo-R2M-Solution-RED-SRGB-2.png" alt="R2M Solution Logo" width="100"/>
 
@@ -62,7 +62,7 @@ Business development partner providing industry experience on information and co
 
 ## How to Contribute
 
-We welcome contributions from the community, including code improvements, user experience feedback, and validation process participation. 
+We welcome contributions from the community, including code improvements, user experience feedback, and user study participation. 
 
 ## License
 This project is licensed under the GNU General Public License v3.0 License - see the [LICENSE](https://github.com/master-ti-rax/.github/blob/main/LICENSE) file for details.

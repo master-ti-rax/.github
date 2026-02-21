@@ -8,7 +8,7 @@ The **TI-RAX** project contributes to the **MASTER** ecosystem by developing imm
 
 ## Project Goals
 
-The TI-RAX project addresses several challenges in vocational education and training based on extended reality:
+The TI-RAX project addresses several challenges in training based on extended reality:
 
 - **Bridging design and deployment**: Educational concepts often remain difficult to operationalize in immersive environments.  
   *TI-RAX transforms educational worksheets into deployable applications via an intelligent generation and integration workflow.*

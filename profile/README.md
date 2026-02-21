@@ -1,8 +1,13 @@
-# TI-RAX
+<div align="center">
+  <img src="./assets/img/logo.png" alt="Logo" width="150"/>
 
-  ![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)
+  # Xage 🌌
+
+  ![License: GNU GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)
   ![Version 0.1](https://img.shields.io/badge/version-0.1-green.svg)
-  ![Status: Stable](https://img.shields.io/badge/status-stable-brightgreen.svg)
+  ![Status: Stable](https://img.shields.io/badge/status-in_progress-orange.svg)
+
+</div
 
 The **TI-RAX** project contributes to the **MASTER** ecosystem by developing immersive **extended-reality training environments** for industrial robotics education. The project transforms structured educational designs into fully operational interactive simulations deployed through the **VIROO platform**. By combining artificial intelligence, multi-agent content generation, and extended reality technologies, the TI-RAX project supports realistic, scalable, and pedagogically grounded experiences focused on industrial scenarios.
 

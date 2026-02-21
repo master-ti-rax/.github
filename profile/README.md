@@ -4,7 +4,7 @@
   ![Version 0.1](https://img.shields.io/badge/version-0.1-green.svg)
   ![Status: Stable](https://img.shields.io/badge/status-stable-brightgreen.svg)
 
-The **TI-RAX** project contributes to the **MASTER** ecosystem by developing immersive **extended-reality training environments** for industrial safety education. The project transforms structured educational designs into fully operational interactive simulations deployed through the **VIROO platform**. By combining artificial intelligence, multi-agent content generation, and extended reality technologies, the TI-RAX project supports realistic, scalable, and pedagogically grounded training experiences focused on industrial scenarios.
+The **TI-RAX** project contributes to the **MASTER** ecosystem by developing immersive **extended-reality training environments** for industrial robotics education. The project transforms structured educational designs into fully operational interactive simulations deployed through the **VIROO platform**. By combining artificial intelligence, multi-agent content generation, and extended reality technologies, the TI-RAX project supports realistic, scalable, and pedagogically grounded training experiences focused on industrial scenarios.
 
 ---
 
@@ -12,17 +12,17 @@ The **TI-RAX** project contributes to the **MASTER** ecosystem by developing imm
 
 The TI-RAX project addresses several challenges in vocational education and training based on extended reality:
 
-- **Bridging design and deployment**: Educational concepts often remain theoretical and difficult to operationalize in immersive environments.  
-  *TI-RAX transforms structured educational worksheets into deployable applications through an intelligent generation and integration workflow.*
+- **Bridging design and deployment**: Educational concepts often remain difficult to operationalize in immersive environments.  
+  *TI-RAX transforms educational worksheets into deployable applications via an intelligent generation and integration workflow.*
 
 - **Realistic safety training**: Hazardous scenarios are difficult to reproduce safely in traditional training contexts.  
-  *TI-RAX leverages simulations to recreate high-risk situations, enabling experiential learning in a realistic environment without physical danger.*
+  *TI-RAX leverages simulations to recreate high-risk situations, enabling experiential learning without physical danger.*
 
 - **Content creation scalability**: Developing extended reality scenes typically requires significant manual effort.  
-  *TI-RAX introduces a multi-agent generation pipeline that automates scene co-design and accelerates development within the VIROO ecosystem.*
+  *TI-RAX introduces a multi-agent generation pipeline that accelerates development and integration within the VIROO platform.*
   
-- **Public accessibility within the MASTER ecosystem**: Extended reality applications must be deployable and testable across shared infrastructures.  
-  *TI-RAX enables public testing by external users by validating deployment, runtime stability, and performance within the MASTER environment.*
+- **Public accessibility**: Extended reality applications require to be deployable into easy-to-access infrastructures.  
+  *TI-RAX enables external users to access and play with the applications through the VIROO player within the MASTER ecosystem.*
 
 ---
 
@@ -45,7 +45,8 @@ The TI-RAX project addresses several challenges in vocational education and trai
   [https://github.com/master-ti-rax/educational-scenes/tree/main/manuals](https://github.com/master-ti-rax/educational-scenes/tree/main/manuals)
 
 - **End-User Applications**  
-  Executable VIROO Player apps deployed in the MASTER ecosystem (local access).
+  Executable apps available through the [VIROO Player]([https://www.viroo.com/](https://viroo.virtualwareco.com/resources/players/)) for public testing: 
+  - Email: tirax@grr.la; Password: testuser
 
 - **Scene Walkthrough Videos**  
   Demonstrations of learner interaction workflows:  

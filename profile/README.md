@@ -41,7 +41,7 @@ The TI-RAX project addresses several challenges in training based on extended re
   [https://github.com/master-ti-rax/educational-scenes/tree/main/manuals](https://github.com/master-ti-rax/educational-scenes/tree/main/manuals)
 
 - **End-User Applications**
-  Executable apps available through the VIROO Player, allowing external users to access and test the deployed training scenarios within the MASTER ecosystem
+  Executable apps of the training scenarios available through the VIROO Player within the MASTER ecosystem
   [https://viroo.virtualwareco.com/resources/players/](https://viroo.virtualwareco.com/resources/players/) (username/email: tirax@grr.la; password: testuser)
 
 - **Scene Walkthrough Videos**  

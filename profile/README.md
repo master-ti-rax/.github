@@ -10,7 +10,7 @@
   <p>
     <strong>TI-RAX</strong> is a project contributing to the <strong>MASTER</strong> ecosystem by developing immersive <strong>extended-reality training environments</strong> for industrial robotics education. 
     It transforms structured educational designs into fully operational interactive simulations deployed through the <strong>VIROO platform</strong>.
-    By combining artificial intelligence, multi-agent content generation, and XR technologies, TI-RAX enables realistic, scalable, and pedagogically grounded training experiences focused on industrial scenarios, with automotive batteries sorting and end-of-life refrigerators dismantling as initial use cases.
+    Through artificial intelligence, TI-RAX enables realistic, scalable, and pedagogically grounded training experiences focused on industrial scenarios, with automotive batteries sorting and end-of-life refrigerators dismantling as initial use cases.
   </p>
 
 </div>

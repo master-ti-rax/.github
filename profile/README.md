@@ -1,183 +1,80 @@
-  # INDI
-  
-  ![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)
-  ![Version 0.1](https://img.shields.io/badge/version-0.1-green.svg)
-  ![Status: Stable](https://img.shields.io/badge/status-stable-brightgreen.svg)
-  
-The **INDI** (Improve Privacy and Trust in Non-Personalized Information Discovery) project is part of the **NGI Search** initiative funded by the **European Union** under grant agreement No. 101069364. INDI aims to create a **privacy-centric**, **transparent**, and **open-source** search engine with **debiasing**, **explainability**, and **anonymity** as core features. The project also includes a **crowdsourcing review platform** that leverages **human reviewers** to ensure search result quality through **manual validation**.
+# TI-RAX
+
+![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)  
+![Version 0.1](https://img.shields.io/badge/version-0.1-green.svg)  
+![Status: Stable](https://img.shields.io/badge/status-stable-brightgreen.svg)
+
+The **TI-RAX** project contributes to the **MASTER** ecosystem by developing immersive **extended-reality training environments** for industrial safety education. The project transforms structured educational designs into fully operational interactive simulations deployed through the **VIROO platform**. By combining artificial intelligence, multi-agent content generation, and extended reality technologies, TI-RAX supports realistic, scalable, and pedagogically grounded training experiences focused on industrial scenarios.
+
+---
 
 ## Project Goals
 
-The INDI project seeks to address key shortcomings in traditional search engines:
+The TI-RAX project addresses several challenges in vocational education and training based on extended reality:
 
-- **Bias and inequity**: Existing platforms often limit diverse perspectives and reinforce inequalities.  
-  *INDI counters this by re-ranking results to prioritize debiasing, ensuring a diverse representation of perspectives.*
+- **Bridging design and deployment**: Educational concepts often remain theoretical and difficult to operationalize in immersive environments.  
+  *TI-RAX transforms structured educational worksheets into deployable applications through an intelligent generation and integration workflow.*
 
-- **Opaque processes**: Users have limited insight into how search results are prioritized.  
-  *INDI provides transparency through explainable artificial intelligence, offering users reasons for why certain results are ranked higher.*
+- **Realistic safety training**: Hazardous scenarios are difficult to reproduce safely in traditional training contexts.  
+  *TI-RAX leverages simulations to recreate high-risk situations, enabling experiential learning in a realistic environment without physical danger.*
 
-- **Privacy invasion**: Search engines frequently track and exploit user data without consent.  
-  *INDI enhances user privacy by anonymizing search queries and avoiding data collection, giving users control over their personal data.*
+- **Content creation scalability**: Developing extended reality scenes typically requires significant manual effort.  
+  *TI-RAX introduces a multi-agent generation pipeline that automates scene co-design and accelerates development within the VIROO ecosystem.*
+  
+- **Public accessibility within the MASTER ecosystem**: Extended reality applications must be deployable and testable across shared infrastructures.  
+  *TI-RAX enables public testing by external users by validating deployment, runtime stability, and performance within the MASTER environment.*
 
-- **Erosion of trust**: These factors contribute to a lack of trust in search results.  
-  *INDI seeks to rebuild trust by offering a decentralized, community-driven review process that ensures transparency in result validation.*
+---
 
-## Installation
+## Resources
 
-### Prerequisites
+- **Educational Worksheets**  
+  Structured learning objectives, tasks, and scene specifications:  
+  [https://github.com/master-ti-rax/educational-scenes/tree/main/sheets](https://github.com/master-ti-rax/educational-scenes/tree/main/sheets)
 
-Before starting, ensure you have Docker and Git installed on your system.
+- **Multi-Agent Generation Pipeline**  
+  Intelligent extended-reality scene co-design engine for VIROO applications:  
+  [https://github.com/master-ti-rax/xage](https://github.com/master-ti-rax/xage)
 
-### Step 1: Create Docker Network
+- **Scenes Source Files**  
+  Unity projects and VIROO application source code:  
+  [https://github.com/master-ti-rax/educational-scenes/tree/main/apps](https://github.com/master-ti-rax/educational-scenes/tree/main/apps)
 
-First, create a Docker network that will be used by all the containers to communicate with each other.
+- **User Manuals**  
+  Guides for administrative deployment and learner execution into the VIROO player:  
+  [https://github.com/master-ti-rax/educational-scenes/tree/main/manuals](https://github.com/master-ti-rax/educational-scenes/tree/main/manuals)
 
-```bash
-docker network create indi_network
-```
+- **End-User Applications**  
+  Executable VIROO Player apps deployed in the MASTER ecosystem (local access).
 
-### Step 2: Set Up the Bias Manager Module
-
-1. Clone the **Bias Manager** repository:
-
-```bash
-git clone https://github.com/ngi-indi/module-bias-manager  
-cd ./module-bias-manager
-```
-
-2. Build the Bias Manager Docker image:
-
-```bash
-docker build -t biasmanager .
-```
-
-3. Run the Bias Manager container:
-
-```bash
-docker run -d --name biasmanager --network indi_network -p 5000:5000 biasmanager
-```
-
-### Step 3: Set Up the Search Engine Module
-
-1. Clone the **Search Engine** repository:
-
-```bash
-git clone https://github.com/ngi-indi/module-search  
-cd ../module-search
-```
-
-2. Build the Search Engine Docker image:
-
-```bash
-docker build -t searchengine .
-```
-
-3. Run the Search Engine container:
-
-```bash
-docker run -d --name searchengine --network indi_network -p 8080:8080 searchengine
-```
-
-### Step 4: Set Up the Frontend Module
-
-1. Clone the **Review Frontend** repository:
-
-```bash
-git clone https://github.com/ngi-indi/module-annotation  
-cd ../module-annotation/frontend
-```
-
-2. Build the Review Frontend Docker image:
-
-```bash
-docker build -t reviewfrontend .
-```
-
-3. Run the Review Frontend container:
-
-```bash
-docker run -d --name reviewfrontend --network indi_network -p 3000:3000 reviewfrontend
-```
-
-### Step 5: Set Up the Database
-
-1. Build the MySQL Docker image:
-
-```bash
-cd ../db
-docker build -t reviewdb .
-```
-
-2. Run the Review Database container:
-
-```bash
-docker run -d --name reviewdb --network indi_network -p 3306:3306 reviewdb
-```
-
-### Step 6: Set Up the Backend Module
-
-1. Build the Review Backend Docker image:
-
-```bash
-cd ../backend
-docker build -t reviewbackend .
-```
-
-2. Run the Review Backend container:
-
-```bash
-docker run -d --name reviewbackend --network indi_network -p 1337:1337 reviewbackend
-```
-
-### Step 7: Set Up the Blockchain Module
-
-1. Clone the **Blockchain Module** repository:
-
-```bash
-git clone https://github.com/ngi-indi/module-blockchain  
-cd ../module-blockchain
-```
-
-2. Build the  Blockchain Module Docker image:
-
-```bash
-docker build -t blockchain .
-```
-
-3. Run the Blockchain Module container:
-
-```bash
-docker run -d --name blockchain --network indi_network -p 3000:3000 blockchain
-```
+- **Scene Walkthrough Videos**  
+  Demonstrations of learner interaction workflows:  
+  [https://github.com/master-ti-rax/educational-scenes/tree/main/videos](https://github.com/master-ti-rax/educational-scenes/tree/main/videos)
 
 ## Partners
 
 <img src="https://www.unica.it/sites/default/files/styles/wide/public/2023-06/Logo_lungo_RGB_d0.png?itok=b_qHk7do" alt="University of Cagliari Logo" width="225"/>
 
 **University of Cagliari**  
-Key research partner with expertise in Information Retrieval (IR), Artificial Intelligence (AI), and Semantic Web.
+Key research partner with expertise in generative artificial intelligence, artificial intelligence in education, and deep learning technologies.
 
 <img src="https://lifeprojects.r2msolution.com/wp-content/uploads/2024/03/Logo-R2M-Solution-RED-SRGB-2.png" alt="R2M Solution Logo" width="100"/>
 
 **R2M Solution**  
-Business development partner providing industry experience on Information and Communication Technologies (ICT).
+Business development partner providing industry experience on information and communication technologies.
 
 ## How to Contribute
 
-We welcome contributions from the open-source community, including code improvements, feedback on user experience, and participation in the review process. You can participate in validation tasks or suggest improvements to ensure INDI meets its goals of enhancing privacy, transparency, and trust in online information discovery.
-
-## Documentation
-The adoption plan outlining the progress in evaluating and refining the platform’s core components is available [here](https://u.garr.it/KPUzc).
+We welcome contributions from the open-source community, including code improvements, feedback on user experience, and participation in the validation process. 
 
 ## License
-This project is licensed under the GNU General Public License v3.0 License - see the [LICENSE](https://github.com/ngi-indi/.github/blob/main/LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 License - see the [LICENSE](https://github.com/master-ti-rax/.github/blob/main/LICENSE) file for details.
 
 ## Contact
 For any questions or support, please reach out to:
-- University of Cagliari: bart@unica.it, diego.reforgiato@unica.it, ludovico.boratto@unica.it, mirko.marras@unica.it
+- University of Cagliari: mirko.marras@unica.it, andreag.martis@unica.it, diego.reforgiato@unica.it, daniele.riboni@unica.it
 - R2M Solution: giuseppe.scarpi@r2msolution.com
-- Website: Coming soon!
 
 ---
 
-This project is funded within the framework of the NGI Search project. The views expressed here are those of the author(s) only and do not necessarily reflect the views of the European Union.
+The TI-RAX Project has received funding from the European Union’s Horizon Europe research and innovation action programme, via the Open Call #2 – MASTER issued and executed under project MASTER (grant agreement Nr. 101093079). The views expressed here are those of the author(s) only and do not necessarily reflect the views of the European Union.

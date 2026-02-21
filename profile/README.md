@@ -72,5 +72,5 @@ For any questions or support, please reach out to:
 - University of Cagliari: mirko.marras@unica.it, andreag.martis@unica.it, diego.reforgiato@unica.it, daniele.riboni@unica.it
 - R2M Solution: giuseppe.scarpi@r2msolution.com
 
-## Acnowledgements
+## Acknowledgements
 The TI-RAX Project has received funding from the European Union’s Horizon Europe research and innovation action programme, via the Open Call #2 – MASTER issued and executed under project MASTER (grant agreement Nr. 101093079). The views expressed here are those of the author(s) only and do not necessarily reflect the views of the European Union.

@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/236386494?s=200&v=4" alt="Logo" width="150"/>
 
-  # TI-RAX 🤖
+  # TI-RAX 
 
   ![License: GNU GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)
   ![Version 0.1](https://img.shields.io/badge/version-0.1-green.svg)
